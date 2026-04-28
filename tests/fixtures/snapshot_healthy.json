@@ -1,0 +1,61 @@
+{
+  "run_utc": "2026-04-28T07:00:00Z",
+  "domains": {
+    "example.test": {
+      "domain": "example.test",
+      "NS": ["alpha.ns.cloudflare.com.", "beta.ns.cloudflare.com."],
+      "A": ["104.21.1.1", "172.67.1.1"],
+      "AAAA": ["2606:4700:3032::ac43:c001"],
+      "MX": ["0 ."],
+      "TXT": ["v=spf1 -all"],
+      "CAA": ["0 issue \"letsencrypt.org\""],
+      "CNAME": [],
+      "SOA": "alpha.ns.cloudflare.com. dns.cloudflare.com. 1 10000 2400 604800 1800",
+      "http": {
+        "url": "https://example.test/",
+        "status": 301,
+        "remote_ip": "104.21.1.1",
+        "server": "cloudflare",
+        "location": "https://wp.example.test/",
+        "content_type": "text/html",
+        "body_sha256": "abc123",
+        "body_len": 200,
+        "phishing_flags": [],
+        "error": null
+      },
+      "tls_local": {
+        "subject": "CN=example.test",
+        "issuer": "C=US, O=Cloudflare, Inc., CN=Gateway CA - Cloudflare Managed G1",
+        "san": ["example.test"],
+        "not_before": "Jan 1 00:00:00 2026 GMT",
+        "not_after": "Jan 1 00:00:00 2027 GMT",
+        "error": null
+      },
+      "crtsh": {
+        "count_total": 5,
+        "recent": [
+          {"id": 1, "name_value": "example.test", "issuer_name": "Let's Encrypt", "not_before": "2026-01-01", "not_after": "2026-04-01", "entry_timestamp": "2026-01-01T00:00:00"}
+        ]
+      }
+    },
+    "noemail.test": {
+      "domain": "noemail.test",
+      "NS": ["alpha.ns.cloudflare.com.", "beta.ns.cloudflare.com."],
+      "A": ["104.21.2.2"],
+      "AAAA": [],
+      "MX": [],
+      "TXT": [],
+      "CAA": [],
+      "CNAME": [],
+      "SOA": "",
+      "http": {"url": "https://noemail.test/", "status": 200, "remote_ip": "104.21.2.2",
+               "server": "cloudflare", "location": null, "content_type": "text/html",
+               "body_sha256": "def456", "body_len": 500, "phishing_flags": [], "error": null},
+      "tls_local": {"subject": "CN=noemail.test",
+                    "issuer": "C=US, O=Let's Encrypt, CN=R3",
+                    "san": ["noemail.test"], "not_before": "Jan 1 00:00:00 2026 GMT",
+                    "not_after": "Jan 1 00:00:00 2027 GMT", "error": null},
+      "crtsh": {"count_total": 2, "recent": []}
+    }
+  }
+}

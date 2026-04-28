@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-04-01T00:00:00Z",
+  "domains": {
+    "example.test": {
+      "NS": ["alpha.ns.cloudflare.com.", "beta.ns.cloudflare.com."],
+      "A": ["104.21.1.1", "172.67.1.1"],
+      "AAAA": ["2606:4700:3032::ac43:c001"],
+      "MX": ["0 ."],
+      "TXT": ["v=spf1 -all"],
+      "CAA": ["0 issue \"letsencrypt.org\""],
+      "CNAME": [],
+      "crtsh": {"count_total": 5}
+    },
+    "noemail.test": {
+      "NS": ["alpha.ns.cloudflare.com.", "beta.ns.cloudflare.com."],
+      "A": ["104.21.2.2"],
+      "AAAA": [],
+      "MX": [],
+      "TXT": [],
+      "CAA": [],
+      "CNAME": [],
+      "crtsh": {"count_total": 2}
+    }
+  }
+}

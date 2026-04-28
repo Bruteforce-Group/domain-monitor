@@ -1,0 +1,73 @@
+# Domain Monitor configuration.
+# All 30 zones in the Bruteforce Group Cloudflare account.
+# Run `gh repo view Bruteforce-Group/domain-monitor` for context.
+
+network:
+  # Cloudflare proxy edge ranges (subset; expand from
+  # https://www.cloudflare.com/ips/ if a domain returns A/AAAA outside these).
+  cf_ipv4_ranges:
+    - "104.16.0.0/13"
+    - "172.64.0.0/13"
+    - "131.0.72.0/22"
+    - "141.101.64.0/18"
+    - "162.158.0.0/15"
+    - "173.245.48.0/20"
+    - "188.114.96.0/20"
+    - "190.93.240.0/20"
+    - "197.234.240.0/22"
+    - "198.41.128.0/17"
+    - "108.162.192.0/18"
+  cf_ipv6_ranges:
+    - "2400:cb00::/32"
+    - "2606:4700::/32"
+    - "2803:f800::/32"
+    - "2405:b500::/32"
+    - "2405:8100::/32"
+    - "2a06:98c0::/29"
+    - "2c0f:f248::/32"
+  expected_redirect_hosts:
+    - "wp.bozza.au"
+    - "bozza.au"
+  expected_tls_issuer_tokens:
+    - "Let's Encrypt"
+    - "Google Trust Services"
+    - "Cloudflare"
+  # Cloudflare Zero-Trust WARP Gateway re-signs all outbound TLS with this CA;
+  # observed locally during baseline. Used to *down*grade local TLS issuer
+  # mismatches to INFO and route trust to crt.sh.
+  warp_intercept_ca_fingerprint: "dac01715f027bf360c500dce1d805d94"
+
+domains:
+  # ---- jarred / jasmine NS pair (26 zones) ----
+  - { name: 12thteebnb.au,        ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bargarahotel.au,      ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: borrowman.au,         ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: borrowman.com.au,     ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: borrowman.net.au,     ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: boz.dev,              ns_pair: [jarred, jasmine], account: "Bruteforce Group", notes: "Status: moved" }
+  - { name: bozza.ai,             ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bozza.au,             ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bozza.online,         ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.au,        ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.cleaning,  ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.cloud,     ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.fitness,   ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.group,     ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforcegroup.com.au, ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: bruteforce.support,   ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: daddyandson.online,   ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: dandeshon.com.au,     ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: e-flux.au,            ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: eflux.au,             ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: e-flux.com.au,        ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: eflux.com.au,         ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: e-flux.net.au,        ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: jackquaite.com,       ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: thedalys.au,          ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+  - { name: thedalys.com.au,      ns_pair: [jarred, jasmine], account: "Bruteforce Group" }
+
+  # ---- carter / nadia NS pair (4 zones) ----
+  - { name: bargarahotel.com,     ns_pair: [carter, nadia],   account: "Bruteforce Group" }
+  - { name: efluxdemo.au,         ns_pair: [carter, nadia],   account: "Bruteforce Group" }
+  - { name: efluxdemo.com.au,     ns_pair: [carter, nadia],   account: "Bruteforce Group" }
+  - { name: eflux.net.au,         ns_pair: [carter, nadia],   account: "Bruteforce Group" }

@@ -1,0 +1,60 @@
+{
+  "run_utc": "2026-04-28T07:00:00Z",
+  "domains": {
+    "example.test": {
+      "domain": "example.test",
+      "NS": ["evil-ns1.attacker.test.", "evil-ns2.attacker.test."],
+      "A": ["8.8.8.8"],
+      "AAAA": [],
+      "MX": ["10 mail.attacker.test."],
+      "TXT": [],
+      "CAA": [],
+      "CNAME": [],
+      "SOA": "",
+      "http": {
+        "url": "https://example.test/",
+        "status": 200,
+        "remote_ip": "8.8.8.8",
+        "server": "nginx",
+        "location": "https://attacker.test/login",
+        "content_type": "text/html",
+        "body_sha256": "bad",
+        "body_len": 9000,
+        "phishing_flags": ["seed phrase", "metamask"],
+        "error": null
+      },
+      "tls_local": {
+        "subject": "CN=example.test",
+        "issuer": "C=US, O=Sectigo, CN=Sectigo RSA Domain Validation Secure Server CA",
+        "san": ["example.test"],
+        "not_before": "Apr 1 00:00:00 2026 GMT",
+        "not_after": "Jul 1 00:00:00 2026 GMT",
+        "error": null
+      },
+      "crtsh": {
+        "count_total": 12,
+        "recent": [
+          {"id": 99, "name_value": "example.test", "issuer_name": "Sectigo", "not_before": "2026-04-01", "not_after": "2026-07-01", "entry_timestamp": "2026-04-01T00:00:00"}
+        ]
+      }
+    },
+    "noemail.test": {
+      "domain": "noemail.test",
+      "NS": ["alpha.ns.cloudflare.com.", "beta.ns.cloudflare.com."],
+      "A": [],
+      "AAAA": [],
+      "MX": [],
+      "TXT": [],
+      "CAA": [],
+      "CNAME": [],
+      "SOA": "",
+      "http": {"url": "https://noemail.test/", "status": null, "remote_ip": null,
+               "server": null, "location": null, "content_type": null,
+               "body_sha256": null, "body_len": 0, "phishing_flags": [],
+               "error": "curl rc=6"},
+      "tls_local": {"subject": null, "issuer": null, "san": [], "not_before": null,
+                    "not_after": null, "error": "Connection refused"},
+      "crtsh": {"count_total": 2, "recent": []}
+    }
+  }
+}

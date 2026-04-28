@@ -1,0 +1,18 @@
+network:
+  cf_ipv4_ranges: ["104.16.0.0/13", "172.64.0.0/13"]
+  cf_ipv6_ranges: ["2606:4700::/32"]
+  expected_redirect_hosts: ["wp.example.test"]
+  expected_tls_issuer_tokens: ["Let's Encrypt", "Google Trust Services"]
+  warp_intercept_ca_fingerprint: "deadbeefdeadbeefdeadbeefdeadbeef"
+
+domains:
+  - name: example.test
+    ns_pair: [alpha, beta]
+    account: "Test Account"
+    require_spf: true
+    require_null_mx: true
+  - name: noemail.test
+    ns_pair: [alpha, beta]
+    account: "Test Account"
+    require_spf: false
+    require_null_mx: false

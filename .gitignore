@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+build/
+dist/
+.venv/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+
+# Daily output retention is up to operator.
+# Keep snapshots/diffs in repo by default — comment out the next two lines if disk grows too large.
+# snapshots/
+# diffs/
