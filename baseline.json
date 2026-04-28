@@ -1,0 +1,1825 @@
+{
+  "created_utc": "2026-04-28T06:24:26.319540Z",
+  "domains": {
+    "12thteebnb.au": {
+      "A": [
+        "104.21.88.214",
+        "172.67.153.100"
+      ],
+      "AAAA": [
+        "2606:4700:3030::ac43:9964",
+        "2606:4700:3037::6815:58d6"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2401823748 10000 2400 604800 1800",
+      "TXT": [
+        "\"v=spf1 a:my.bozza.au -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "12thteebnb.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://12thteebnb.com.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3037::6815:58d6",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://12thteebnb.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 26 06:17:00 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "12thteebnb.au"
+        ],
+        "subject": "CN=12thteebnb.au"
+      }
+    },
+    "bargarahotel.au": {
+      "A": [
+        "104.21.56.238",
+        "172.67.138.1"
+      ],
+      "AAAA": [
+        "2606:4700:3033::6815:38ee",
+        "2606:4700:3036::ac43:8a01"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402512936 10000 2400 604800 1800",
+      "TXT": [
+        "\"v=spf1 a:my.bozza.au -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bargarahotel.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://bargarahotel.com.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3036::ac43:8a01",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://bargarahotel.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jun 28 06:17:03 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bargarahotel.au"
+        ],
+        "subject": "CN=bargarahotel.au"
+      }
+    },
+    "bargarahotel.com": {
+      "A": [
+        "104.21.62.8",
+        "172.67.217.167"
+      ],
+      "AAAA": [
+        "2606:4700:3035::6815:3e08",
+        "2606:4700:3036::ac43:d9a7"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [],
+      "NS": [
+        "carter.ns.cloudflare.com.",
+        "nadia.ns.cloudflare.com."
+      ],
+      "SOA": "carter.ns.cloudflare.com. dns.cloudflare.com. 2402513096 10000 2400 604800 1800",
+      "TXT": [
+        "\"v=spf1 a:my.bozza.au -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bargarahotel.com",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://bargarahotel.com.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3035::6815:3e08",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://bargarahotel.com/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 11 06:31:37 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bargarahotel.com"
+        ],
+        "subject": "CN=bargarahotel.com"
+      }
+    },
+    "borrowman.au": {
+      "A": [
+        "104.21.28.12",
+        "172.67.170.37"
+      ],
+      "AAAA": [
+        "2606:4700:3033::6815:1c0c",
+        "2606:4700:3037::ac43:aa25"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "10 mx1.smtp.goog.",
+        "20 mx2.smtp.goog.",
+        "30 mx3.smtp.goog.",
+        "40 mx4.smtp.goog."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402733998 10000 2400 604800 1800",
+      "TXT": [
+        "\"apple-domain-verification=RKhJA52sPqtwLR06\"",
+        "\"google-site-verification=NVrU0C6pib9O4IlsiHvFgetHjuiq-gHv4RldDSmQU9A\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "borrowman.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3033::6815:1c0c",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://borrowman.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Oct 24 06:17:06 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "borrowman.au"
+        ],
+        "subject": "CN=borrowman.au"
+      }
+    },
+    "borrowman.com.au": {
+      "A": [
+        "104.21.69.68",
+        "172.67.206.8"
+      ],
+      "AAAA": [
+        "2606:4700:3031::ac43:ce08",
+        "2606:4700:3032::6815:4544"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "10 mx1.smtp.goog.",
+        "20 mx2.smtp.goog.",
+        "30 mx3.smtp.goog.",
+        "40 mx4.smtp.goog."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2401797856 10000 2400 604800 1800",
+      "TXT": [
+        "\"detectify-verification=67da1fd17fb325e98c1777ed941e1997\"",
+        "\"google-site-verification=I5IAMukxSJc3XwIaq6wJT3RWx0r6L7Fuj7uZlJGBeOM\"",
+        "\"protonmail-verification=a7d70766085e96192755cd6d45cee92851fc0bfe\"",
+        "\"v=spf1 include:_spf.protonmail.ch include:_spf.google.com ~all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "borrowman.com.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3031::ac43:ce08",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://borrowman.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug  4 06:17:46 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "borrowman.com.au"
+        ],
+        "subject": "CN=borrowman.com.au"
+      }
+    },
+    "borrowman.net.au": {
+      "A": [
+        "104.21.15.216",
+        "172.67.164.129"
+      ],
+      "AAAA": [
+        "2606:4700:3030::ac43:a481",
+        "2606:4700:3035::6815:fd8"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2401925852 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=DvPAo4giIXNHvnLWKvSaRtBMdS9CHOcB06EoTASh5_k\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "borrowman.net.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3035::6815:fd8",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://borrowman.net.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Sep 25 06:18:28 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "borrowman.net.au"
+        ],
+        "subject": "CN=borrowman.net.au"
+      }
+    },
+    "boz.dev": {
+      "A": [
+        "104.26.0.113",
+        "104.26.1.113",
+        "172.67.68.138"
+      ],
+      "AAAA": [
+        "2606:4700:20::681a:171",
+        "2606:4700:20::681a:71",
+        "2606:4700:20::ac43:448a"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [],
+      "NS": [
+        "aldo.ns.cloudflare.com.",
+        "harlee.ns.cloudflare.com."
+      ],
+      "SOA": "aldo.ns.cloudflare.com. dns.cloudflare.com. 2402756587 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=HszSeimZx9vLyyEdmQGguU3OL-UKZPLQA2m1kGaC5wU\"",
+        "\"twilio-domain-verification=5443be9c1ce876ca1ef7e1a77344ae73\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "boz.dev",
+      "http": {
+        "body_len": 23714,
+        "body_sha256": "7aeb246f3e69d1086cb76b7834d102b8119485c1c1b2057d527caa0a59a2c97d",
+        "content_type": "text/html; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:20::681a:71",
+        "server": "cloudflare",
+        "status": 403,
+        "url": "https://boz.dev/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "May 29 06:19:09 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "boz.dev"
+        ],
+        "subject": "CN=boz.dev"
+      }
+    },
+    "bozza.ai": {
+      "A": [
+        "104.21.27.56",
+        "172.67.141.119"
+      ],
+      "AAAA": [
+        "2606:4700:3031::6815:1b38",
+        "2606:4700:3033::ac43:8d77"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402375559 10000 2400 604800 1800",
+      "TXT": [],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bozza.ai",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3031::6815:1b38",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bozza.ai/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 13 06:19:12 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bozza.ai"
+        ],
+        "subject": "CN=bozza.ai"
+      }
+    },
+    "bozza.au": {
+      "A": [
+        "104.26.14.204",
+        "104.26.15.204",
+        "172.67.71.50"
+      ],
+      "AAAA": [
+        "2606:4700:20::681a:ecc",
+        "2606:4700:20::681a:fcc",
+        "2606:4700:20::ac43:4732"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "10 mx1.smtp.goog.",
+        "20 mx2.smtp.goog.",
+        "30 mx3.smtp.goog.",
+        "40 mx4.smtp.goog."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402822716 10000 2400 604800 1800",
+      "TXT": [
+        "\"apple-domain-verification=IWwYu06yLkvArEA8\"",
+        "\"cloudflare_dashboard_sso=33987d029b5a930b2a5dae0568bdf1d3\"",
+        "\"google-gws-recovery-domain-verification=67986345\"",
+        "\"google-site-verification=QOYYVneoGhwMSlBxnfjDhli14D-oDBNmXT2tMNukfvk\"",
+        "\"have-i-been-pwned-verification=dweb_njdmzrv5plvcn58il6qi2nl9\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bozza.au",
+      "http": {
+        "body_len": 16788,
+        "body_sha256": "7036e28df4d6924dfe4ba737b4050493b8380c0d0c7221b060f07423813eeacd",
+        "content_type": "text/html",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:20::681a:fcc",
+        "server": "cloudflare",
+        "status": 403,
+        "url": "https://bozza.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 29 06:19:54 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bozza.au"
+        ],
+        "subject": "CN=bozza.au"
+      }
+    },
+    "bozza.online": {
+      "A": [
+        "104.21.64.8",
+        "172.67.173.187"
+      ],
+      "AAAA": [
+        "2606:4700:3032::6815:4008",
+        "2606:4700:3032::ac43:adbb"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402161110 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=tdQ_r9PPdZK5nB1DZQExI6HLWnviJeNY2zyeHXi795g\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bozza.online",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3032::6815:4008",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://bozza.online/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jun 10 06:19:56 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bozza.online"
+        ],
+        "subject": "CN=bozza.online"
+      }
+    },
+    "bruteforce.au": {
+      "A": [
+        "104.21.93.247",
+        "172.67.216.229"
+      ],
+      "AAAA": [
+        "2606:4700:3030::ac43:d8e5",
+        "2606:4700:3033::6815:5df7"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402050159 10000 2400 604800 1800",
+      "TXT": [
+        "\"facebook-domain-verification=pklpw4lt4kktmrp22not2a6w9wgg4n\"",
+        "\"google-site-verification=mxXAabZUTFNpT_XB3levZE_9hQyRB2ytXtSvg9pP5fw\"",
+        "\"v=spf1 include:_spf.protonmail.ch include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3033::6815:5df7",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bruteforce.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Oct  8 06:19:58 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bruteforce.au"
+        ],
+        "subject": "CN=bruteforce.au"
+      }
+    },
+    "bruteforce.cleaning": {
+      "A": [],
+      "AAAA": [],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402521042 10000 2400 604800 1800",
+      "TXT": [
+        "\"mscid=bKsKIlVgq8Re6lQe5EUSYemPwAvaZCb6oC13UBXbKV0hJPHvgMUPFABLIJi3o+WEAOHRNNIWmX9DtmgOokdp8Q==\"",
+        "\"v=spf1 include:spf.protection.outlook.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.cleaning",
+      "http": {
+        "body_len": 0,
+        "body_sha256": null,
+        "content_type": null,
+        "error": "curl: (6) Could not resolve host: bruteforce.cleaning",
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": null,
+        "server": null,
+        "status": null,
+        "url": "https://bruteforce.cleaning/"
+      },
+      "tls_local": {
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "issuer": null,
+        "not_after": null,
+        "not_before": null,
+        "san": [],
+        "subject": null
+      }
+    },
+    "bruteforce.cloud": {
+      "A": [
+        "104.21.49.94",
+        "172.67.143.157"
+      ],
+      "AAAA": [
+        "2606:4700:3031::ac43:8f9d",
+        "2606:4700:3037::6815:315e"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402078057 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=_QGfgqntXAWJLGPJ9YiBVMfwO5cL7ym5hBjeNDYi1Tc\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.cloud",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3031::ac43:8f9d",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bruteforce.cloud/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug  5 06:20:21 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bruteforce.cloud"
+        ],
+        "subject": "CN=bruteforce.cloud"
+      }
+    },
+    "bruteforce.fitness": {
+      "A": [],
+      "AAAA": [],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402530319 10000 2400 604800 1800",
+      "TXT": [
+        "\"mscid=bKsKIlVgq8Re6lQe5EUSYemPwAvaZCb6oC13UBXbKV0hJPHvgMUPFABLIJi3o+WEAOHRNNIWmX9DtmgOokdp8Q==\"",
+        "\"v=spf1 include:spf.protection.outlook.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.fitness",
+      "http": {
+        "body_len": 0,
+        "body_sha256": null,
+        "content_type": null,
+        "error": "curl: (6) Could not resolve host: bruteforce.fitness",
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": null,
+        "server": null,
+        "status": null,
+        "url": "https://bruteforce.fitness/"
+      },
+      "tls_local": {
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "issuer": null,
+        "not_after": null,
+        "not_before": null,
+        "san": [],
+        "subject": null
+      }
+    },
+    "bruteforce.group": {
+      "A": [
+        "104.21.36.186",
+        "172.67.198.143"
+      ],
+      "AAAA": [
+        "2606:4700:3031::6815:24ba",
+        "2606:4700:3037::ac43:c68f"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "10 mx1.smtp.goog.",
+        "20 mx2.smtp.goog.",
+        "30 mx3.smtp.goog.",
+        "40 mx4.smtp.goog."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402681467 10000 2400 604800 1800",
+      "TXT": [
+        "\"abuseipdb-verification=P9Rx5kzY\"",
+        "\"apple-domain-verification=ucCop5flP6Xm3VB2\"",
+        "\"cloudflare_dashboard_sso=84962b86d1955be615b649fb99b06c8e\"",
+        "\"google-site-verification=wEFdNYYSJLJR836CvUCImZoO1g3BTQCuk5FtXvrR2DI\"",
+        "\"have-i-been-pwned-verification=dweb_yft36pgyvu6sx6pzngltz6fa\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.group",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3037::ac43:c68f",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bruteforce.group/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 18 06:21:05 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bruteforce.group"
+        ],
+        "subject": "CN=bruteforce.group"
+      }
+    },
+    "bruteforce.support": {
+      "A": [
+        "104.21.4.85",
+        "172.67.131.221"
+      ],
+      "AAAA": [
+        "2606:4700:3033::6815:455",
+        "2606:4700:3033::ac43:83dd"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402713193 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=KUvKab1asi-mA5PQ6Lz3GmJo8WV_8C7HNDI-yjNCgm0\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforce.support",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3033::6815:455",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bruteforce.support/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jun 30 06:22:08 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bruteforce.support"
+        ],
+        "subject": "CN=bruteforce.support"
+      }
+    },
+    "bruteforcegroup.com.au": {
+      "A": [
+        "104.21.90.25",
+        "172.67.151.135"
+      ],
+      "AAAA": [
+        "2606:4700:3031::6815:5a19",
+        "2606:4700:3034::ac43:9787"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402639561 10000 2400 604800 1800",
+      "TXT": [
+        "\"facebook-domain-verification=zvul4lr7loduc2uj9mcfy95k0idj60\"",
+        "\"google-site-verification=fkgsOIuKSyojaxAcSwQMOjmtbuJkl5AO90fnTHP_Q80\"",
+        "\"v=spf1 include:_spf.protonmail.ch include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "bruteforcegroup.com.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3031::6815:5a19",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://bruteforcegroup.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug  5 06:21:46 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "bruteforcegroup.com.au"
+        ],
+        "subject": "CN=bruteforcegroup.com.au"
+      }
+    },
+    "daddyandson.online": {
+      "A": [],
+      "AAAA": [],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402520524 10000 2400 604800 1800",
+      "TXT": [
+        "\"mscid=T5Ku+RUkeaDBhgd65cp/9kQ9oFs8PvsDYCQvtv2HJFJ++IKk7Se8utNVbZMNIcYPttPaiR63e7H30NR/T1HV1w==\"",
+        "\"v=spf1 include:spf.protection.outlook.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "daddyandson.online",
+      "http": {
+        "body_len": 0,
+        "body_sha256": null,
+        "content_type": null,
+        "error": "curl: (6) Could not resolve host: daddyandson.online",
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": null,
+        "server": null,
+        "status": null,
+        "url": "https://daddyandson.online/"
+      },
+      "tls_local": {
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "issuer": null,
+        "not_after": null,
+        "not_before": null,
+        "san": [],
+        "subject": null
+      }
+    },
+    "dandeshon.com.au": {
+      "A": [
+        "104.21.54.140",
+        "172.67.138.253"
+      ],
+      "AAAA": [
+        "2606:4700:3033::6815:368c",
+        "2606:4700:3037::ac43:8afd"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 dandeshon-com-au.mail.protection.outlook.com."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402150527 10000 2400 604800 1800",
+      "TXT": [
+        "\"mscid=hUxkG9AokeBJVlsNTN3TKqqoKpl9STh3WdOvJqzLjY8Ys5GftMVrJiL1VwznGOlR6CsRA2ZIkih04JdG4J1A0Q==\"",
+        "\"v=spf1 include:spf.saasu.com include:spf.protection.outlook.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "dandeshon.com.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c473351557dd55bf32afc3612788bc5c7926534349743617aa6b30d39e59c941",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3033::6815:368c",
+        "server": "cloudflare",
+        "status": 526,
+        "url": "https://dandeshon.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jul  2 06:22:50 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "dandeshon.com.au"
+        ],
+        "subject": "CN=dandeshon.com.au"
+      }
+    },
+    "e-flux.au": {
+      "A": [
+        "104.21.42.9",
+        "172.67.198.25"
+      ],
+      "AAAA": [
+        "2606:4700:3030::6815:2a09",
+        "2606:4700:3031::ac43:c619"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2401938450 10000 2400 604800 1800",
+      "TXT": [
+        "\"DNS managed by Bruteforce Group!\"",
+        "\"google-site-verification=5rpCKvoEJC3HfnhSLREVtAM-tuwG2UsCNp5Kr2gvSoA\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "e-flux.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3030::6815:2a09",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://e-flux.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Oct  8 06:22:53 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "e-flux.au"
+        ],
+        "subject": "CN=e-flux.au"
+      }
+    },
+    "e-flux.com.au": {
+      "A": [
+        "104.21.24.153",
+        "172.67.219.72"
+      ],
+      "AAAA": [
+        "2606:4700:3035::6815:1899",
+        "2606:4700:3037::ac43:db48"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2400881817 10000 2400 604800 1800",
+      "TXT": [
+        "\"DNS Managed by Bruteforce Group\"",
+        "\"facebook-domain-verification=r4vxjx9mv0dwyh19o2tcur1vn8wvuh\"",
+        "\"google-site-verification=RMfQj2KdyYEwg3_14OudRlhd3s-1dP5vnaap2w9h-oQ\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "e-flux.com.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3035::6815:1899",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://e-flux.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jul  7 06:23:37 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "e-flux.com.au"
+        ],
+        "subject": "CN=e-flux.com.au"
+      }
+    },
+    "e-flux.net.au": {
+      "A": [
+        "104.21.45.118",
+        "172.67.213.223"
+      ],
+      "AAAA": [
+        "2606:4700:3030::ac43:d5df",
+        "2606:4700:3033::6815:2d76"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2400882332 10000 2400 604800 1800",
+      "TXT": [
+        "\"DNS Managed by Bruteforce Group\"",
+        "\"facebook-domain-verification=p7657kmur7vg1xm7ngifz5cfsnad39\"",
+        "\"google-site-verification=EubIeRklumJJNrYLuUZQ7yuh5n5HgKu7HPj7FmdhXNY\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "e-flux.net.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3033::6815:2d76",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://e-flux.net.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jul 20 06:31:14 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "e-flux.net.au"
+        ],
+        "subject": "CN=e-flux.net.au"
+      }
+    },
+    "eflux.au": {
+      "A": [
+        "104.21.76.137",
+        "172.67.195.191"
+      ],
+      "AAAA": [
+        "2606:4700:3030::ac43:c3bf",
+        "2606:4700:3034::6815:4c89"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402244254 10000 2400 604800 1800",
+      "TXT": [
+        "\"DNS Managed by Bruteforce Group\"",
+        "\"facebook-domain-verification=wv2v0pzexroxcepah64zbl46vfet3h\"",
+        "\"google-site-verification=n5tFWEaSezSNNMLQbqyiETr0pp4vpa6VbnjqGrBHI68\"",
+        "\"v=spf1 a:my.bozza.au include:_spf.google.com ~all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "eflux.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3034::6815:4c89",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://eflux.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jun 25 06:23:34 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "eflux.au"
+        ],
+        "subject": "CN=eflux.au"
+      }
+    },
+    "eflux.com.au": {
+      "A": [
+        "104.21.73.207",
+        "172.67.192.39"
+      ],
+      "AAAA": [
+        "2606:4700:3030::6815:49cf",
+        "2606:4700:3037::ac43:c027"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402764941 10000 2400 604800 1800",
+      "TXT": [
+        "\"MS=\"",
+        "\"apple-domain-verification=\"",
+        "\"facebook-domain-verification=\"",
+        "\"google-site-verification=k3mjhbXatSvUdbJpakVeOaWiQJ0Q4L3imGmLFCMCLN0\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "eflux.com.au",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3030::6815:49cf",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://eflux.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Sep 12 06:23:39 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "eflux.com.au"
+        ],
+        "subject": "CN=eflux.com.au"
+      }
+    },
+    "eflux.net.au": {
+      "A": [
+        "104.21.9.9",
+        "172.67.140.209"
+      ],
+      "AAAA": [
+        "2606:4700:3033::6815:909",
+        "2606:4700:3035::ac43:8cd1"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "carter.ns.cloudflare.com.",
+        "nadia.ns.cloudflare.com."
+      ],
+      "SOA": "carter.ns.cloudflare.com. dns.cloudflare.com. 2402065728 10000 2400 604800 1800",
+      "TXT": [
+        "\"DNS Managed by Bruteforce Group\"",
+        "\"apple-domain-verification=JgTHQP9UHBpmSPkA\"",
+        "\"facebook-domain-verification=\"",
+        "\"v=spf1 include:_spf.mx.cloudflare.net -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "eflux.net.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3035::ac43:8cd1",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://eflux.net.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Sep 27 06:31:41 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "eflux.net.au"
+        ],
+        "subject": "CN=eflux.net.au"
+      }
+    },
+    "efluxdemo.au": {
+      "A": [
+        "104.21.20.166",
+        "172.67.193.55"
+      ],
+      "AAAA": [
+        "2606:4700:3033::ac43:c137",
+        "2606:4700:3037::6815:14a6"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "carter.ns.cloudflare.com.",
+        "nadia.ns.cloudflare.com."
+      ],
+      "SOA": "carter.ns.cloudflare.com. dns.cloudflare.com. 2402782403 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=efcu5_ZACsYuudN8alY7ZVaV6riSKdNyiTyjuDf5Djk\"",
+        "\"v=spf1 a:my.bozza.au include:_spf.google.com ~all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "efluxdemo.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3037::6815:14a6",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://efluxdemo.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Oct 22 06:31:39 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "efluxdemo.au"
+        ],
+        "subject": "CN=efluxdemo.au"
+      }
+    },
+    "efluxdemo.com.au": {
+      "A": [
+        "104.21.53.134",
+        "172.67.213.31"
+      ],
+      "AAAA": [
+        "2606:4700:3035::6815:3586",
+        "2606:4700:3037::ac43:d51f"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 ."
+      ],
+      "NS": [
+        "carter.ns.cloudflare.com.",
+        "nadia.ns.cloudflare.com."
+      ],
+      "SOA": "carter.ns.cloudflare.com. dns.cloudflare.com. 2402782123 10000 2400 604800 1800",
+      "TXT": [
+        "\"google-site-verification=jVttaZZClBEPDrTBnrP5DtOtVT4IlMG29a_IS5_pd6E\"",
+        "\"v=spf1 include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "efluxdemo.com.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "content_type": null,
+        "error": null,
+        "location": "https://wp.bozza.au/",
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3037::ac43:d51f",
+        "server": "cloudflare",
+        "status": 301,
+        "url": "https://efluxdemo.com.au/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Jun  1 06:31:40 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "efluxdemo.com.au"
+        ],
+        "subject": "CN=efluxdemo.com.au"
+      }
+    },
+    "jackquaite.com": {
+      "A": [
+        "104.21.64.42",
+        "172.67.175.238"
+      ],
+      "AAAA": [
+        "2606:4700:3034::ac43:afee",
+        "2606:4700:3035::6815:402a"
+      ],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "10 mx1.smtp.goog.",
+        "20 mx2.smtp.goog.",
+        "30 mx3.smtp.goog.",
+        "40 mx4.smtp.goog."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2402681484 10000 2400 604800 1800",
+      "TXT": [
+        "\"apple-domain-verification=V0wU3wfJ2wWQvdiF\"",
+        "\"detectify-verification=67da1fd17fb325e98c1777ed941e1997\"",
+        "\"google-site-verification=_wfQsgJGa-Pm7Q1TQoi6Uv9J7U1gRBn2lSPE5G75VX0\"",
+        "\"v=spf1 include:_spf.mx.cloudflare.net include:_spf.google.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "jackquaite.com",
+      "http": {
+        "body_len": 15,
+        "body_sha256": "c28450696922dcfa91d777278d00bb2e4e6fb08ef9b5c841a937388ca916f639",
+        "content_type": "text/plain; charset=UTF-8",
+        "error": null,
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": "2606:4700:3034::ac43:afee",
+        "server": "cloudflare",
+        "status": 522,
+        "url": "https://jackquaite.com/"
+      },
+      "tls_local": {
+        "error": null,
+        "issuer": "C=US, ST=California, L=San Francisco, O=Cloudflare, Inc., OU=www.cloudflare.com, CN=Gateway CA - Cloudflare Managed G1 dac01715f027bf360c500dce1d805d94",
+        "not_after": "Aug 29 06:31:15 2026 GMT",
+        "not_before": "Apr 22 12:29:00 2026 GMT",
+        "san": [
+          "jackquaite.com"
+        ],
+        "subject": "CN=jackquaite.com"
+      }
+    },
+    "thedalys.au": {
+      "A": [],
+      "AAAA": [],
+      "CAA": [],
+      "CNAME": [],
+      "MX": [],
+      "NS": [],
+      "SOA": "",
+      "TXT": [],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "thedalys.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": null,
+        "content_type": null,
+        "error": "curl: (6) Could not resolve host: thedalys.au",
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": null,
+        "server": null,
+        "status": null,
+        "url": "https://thedalys.au/"
+      },
+      "tls_local": {
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "issuer": null,
+        "not_after": null,
+        "not_before": null,
+        "san": [],
+        "subject": null
+      }
+    },
+    "thedalys.com.au": {
+      "A": [],
+      "AAAA": [],
+      "CAA": [
+        "0 iodef \"mailto:noc@bruteforce.group\"",
+        "0 issue \"comodoca.com\"",
+        "0 issue \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issue \"letsencrypt.org\"",
+        "0 issue \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issue \"ssl.com\"",
+        "0 issuewild \"comodoca.com\"",
+        "0 issuewild \"digicert.com; cansignhttpexchanges=yes\"",
+        "0 issuewild \"letsencrypt.org\"",
+        "0 issuewild \"pki.goog; cansignhttpexchanges=yes\"",
+        "0 issuewild \"ssl.com\""
+      ],
+      "CNAME": [],
+      "MX": [
+        "0 thedalys-com-au.mail.protection.outlook.com."
+      ],
+      "NS": [
+        "jarred.ns.cloudflare.com.",
+        "jasmine.ns.cloudflare.com."
+      ],
+      "SOA": "jarred.ns.cloudflare.com. dns.cloudflare.com. 2401991802 10000 2400 604800 1800",
+      "TXT": [
+        "\"mscid=2wkCGAnN4HXOxGg+TKo3RpcSql8y0IIdYc/yNnlh776R8IYQDkXB2mTegt4bH+1jCW6gW1pS6mzZKsnsLVlqXw==\"",
+        "\"v=spf1 include:spf.protection.outlook.com -all\""
+      ],
+      "crtsh": {
+        "skipped": true
+      },
+      "domain": "thedalys.com.au",
+      "http": {
+        "body_len": 0,
+        "body_sha256": null,
+        "content_type": null,
+        "error": "curl: (6) Could not resolve host: thedalys.com.au",
+        "location": null,
+        "phishing_flags": [],
+        "remote_ip": null,
+        "server": null,
+        "status": null,
+        "url": "https://thedalys.com.au/"
+      },
+      "tls_local": {
+        "error": "[Errno 8] nodename nor servname provided, or not known",
+        "issuer": null,
+        "not_after": null,
+        "not_before": null,
+        "san": [],
+        "subject": null
+      }
+    }
+  }
+}
